@@ -12,6 +12,7 @@ gem 'rails', '~> 7.0.4', '>= 7.0.4.3'
 gem 'pg', '~> 1.1'
 
 # Use the Puma web server [https://github.com/puma/puma]
+gem 'active_model_serializers'
 gem 'puma', '~> 5.0'
 gem 'rubocop', '~> 1.35'
 
@@ -51,3 +52,7 @@ group :development do
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
 end
+
+gem 'factory_bot_rails', '>= 6.2.0'
+gem 'faker'
+gem 'shoulda-matchers', '~> 5.0'

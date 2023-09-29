@@ -45,7 +45,6 @@ jobs:
       - name: Run RSpec
         run: COVERAGE=true bundle exec rspec  --require rails_helper
         env:
-          IMBD_API_KEY: k_35an44nt
           RAILS_ENV: test
           POSTGRES_USER: postgres
           POSTGRES_PASSWORD: postgres
